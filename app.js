@@ -1,6 +1,5 @@
 /**
- * 다솜 민화 공동체 (Dasom Minhwa Atelier) 핵심 스크립트
- * 초보자도 쉽게 이해할 수 있도록 기능별로 주석을 꼼꼼하게 작성했습니다.
+ * 민화작가 오령 표현희 아틀리에 핵심 스크립트
  */
 
 // ==========================================
@@ -12,12 +11,12 @@ const artworkData = [
     title: "부귀화조의 노래 (富貴花鳥)",
     category: "hwajo",
     categoryLabel: "화조도",
-    artist: "송예린 연구회원",
+    artist: "오령 표현희",
     image: "images/flower_bird.jpg",
     material: "순지에 천연 분채, 석채, 봉즙",
     size: "65 x 90 cm",
     year: "2026년 봄",
-    description: "화사하게 만개한 모란은 가문의 번영과 부귀를, 다정하게 마주 보는 한 쌍의 길조(새)는 부부간의 영원한 사랑과 신뢰를 상징합니다. 고운바탕의 한지에 은은하게 올린 바림 기법이 돋보이는 작품입니다.",
+    description: "화사하게 만개한 모란은 가문의 번영과 부귀를, 다정하게 마주 보는 한 쌍의 길조(새)는 부부간의 영원한 사랑과 신뢰를 상징합니다. 고운바탕의 한지에 은은하게 올린 전통 바림 기법이 돋보이는 대표 수작입니다.",
     comments: [
       { author: "한옥지기", text: "색감이 너무 포근하고 정갈하네요! 화실에서 실물 보고 감탄했습니다." },
       { author: "연꽃향기", text: "새들의 깃털 표현이 정말 섬세합니다." }
@@ -28,7 +27,7 @@ const artworkData = [
     title: "학문과 지혜의 서재 (冊架圖)",
     category: "chaek",
     categoryLabel: "책거리",
-    artist: "김정우 초대작가",
+    artist: "오령 표현희",
     image: "images/chaekgeori.jpg",
     material: "삼베 배접 한지에 전통 석채 및 금분",
     size: "70 x 110 cm",
@@ -36,7 +35,7 @@ const artworkData = [
     description: "선비들의 서재 풍경을 입체적으로 구성한 책거리입니다. 높게 쌓인 서책과 벼루, 붓, 그리고 자손 번창을 뜻하는 석류를 조화롭게 배치하여 학문에 대한 정진과 집안의 번창을 소망했습니다.",
     comments: [
       { author: "청파선생", text: "책갑의 비단 끈 묘사가 살아 숨쉬는 것 같습니다." },
-      { author: "민화새싹", text: "책거리 꼭 배워보고 싶은데 영감을 많이 얻고 갑니다!" }
+      { author: "민화새싹", text: "작가님 책거리 꼭 배워보고 싶은데 영감을 많이 얻고 갑니다!" }
     ]
   },
   {
@@ -44,7 +43,7 @@ const artworkData = [
     title: "송하호작도 (松下虎鵲圖)",
     category: "tiger",
     categoryLabel: "호작도",
-    artist: "박은지 작가",
+    artist: "오령 표현희",
     image: "images/tiger_magpie.jpg",
     material: "송연묵, 삼베순지, 치자/황토 안료",
     size: "60 x 85 cm",
@@ -59,7 +58,7 @@ const artworkData = [
     title: "연지청풍 (蓮池淸風)",
     category: "lotus",
     categoryLabel: "연화도",
-    artist: "이서윤 사범",
+    artist: "오령 표현희",
     image: "images/lotus_fish.jpg",
     material: "옥당지에 홍화/쪽 전통 바림 채색",
     size: "65 x 92 cm",
@@ -74,7 +73,7 @@ const artworkData = [
     title: "효제충신 문자도: 충(忠)",
     category: "munja",
     categoryLabel: "문자도",
-    artist: "최민석 연구회원",
+    artist: "오령 표현희",
     image: "images/munjado.jpg",
     material: "순지에 분채, 먹, 순금박",
     size: "50 x 75 cm",

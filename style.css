@@ -173,6 +173,39 @@ button {
   border-radius: 6px;
 }
 
+/* 실제 오령 표현희 작가 낙관 이미지 스타일 */
+.stamp-seal-img {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(184, 59, 54, 0.28);
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.stamp-seal-img:hover {
+  transform: scale(1.05);
+}
+
+.stamp-seal-img.small {
+  width: 36px;
+  height: 36px;
+}
+
+.wm-seal-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+  display: block;
+}
+
+.lightbox-watermark .wm-seal-img {
+  width: 30px;
+  height: 30px;
+}
+
 /* 공통 버튼 디자인 */
 .btn {
   display: inline-flex;
