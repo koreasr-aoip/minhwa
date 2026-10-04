@@ -175,35 +175,40 @@ button {
 
 /* 실제 오령 표현희 작가 낙관 이미지 스타일 */
 .stamp-seal-img {
-  width: 46px;
-  height: 46px;
-  object-fit: contain;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(184, 59, 54, 0.28);
+  box-shadow: 0 3px 10px rgba(184, 59, 54, 0.35);
   display: block;
-  transition: transform 0.2s ease;
+  flex-shrink: 0;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .stamp-seal-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.06) rotate(-1deg);
+  box-shadow: 0 5px 14px rgba(184, 59, 54, 0.45);
 }
 
 .stamp-seal-img.small {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
 }
 
 .wm-seal-img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
   border-radius: 4px;
   display: block;
+  flex-shrink: 0;
 }
 
 .lightbox-watermark .wm-seal-img {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
 }
 
 /* 공통 버튼 디자인 */
